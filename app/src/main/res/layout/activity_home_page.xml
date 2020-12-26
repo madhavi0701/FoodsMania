@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activity.HomePage">
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bm"
+        android:ems="10"
+        android:hint="Search Place"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:scrollHorizontally="true"
+        android:textColor="#FAFDF9F9"
+        android:textColorHint="#F8EFEF" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="203dp"
+        android:background="@drawable/bc"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cafe">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="211dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/bc"
+                android:padding="10dp"
+                app:srcCompat="@drawable/c4" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cafe"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg"
+            android:text="cafe"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_lounge"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg"
+            android:text="Lounge"
+            android:textColor="#F8F7F7" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_restrnt"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bg"
+            android:text="Restaurant"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_streetfood"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/bg"
+            android:text="Street food"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:text="Add"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="218dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bm"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="4dp"
+        android:text="FIND EAT RATE REPEAT"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="14sp" />
+
+</LinearLayout>

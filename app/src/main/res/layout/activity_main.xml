@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bm"
+        android:gravity="center_horizontal"
+        android:text="FoodsMania"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="70sp"
+        app:fontFamily="sans-serif-condensed-light" />
+
+    <EditText
+        android:id="@+id/email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="85dp"
+        android:background="@color/common_google_signin_btn_text_light_disabled"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="#0C0C0C"
+        android:textColorHighlight="#EC8D8D"
+        android:textColorHint="#636060" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#0B0A0A"
+        android:textColorHint="#636060" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="10dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="70dp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="151dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="New User?"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bg"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="70dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodsmania">
+
+    <uses-permission android:name="android.permission.INTERNET0" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/food5"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name="com.example.foodsmania.activity.SplashActivity"
+            android:theme="@style/Notoolbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.example.foodsmania.activity.Add_revieww" />
+        <activity android:name="com.example.foodsmania.activity.Show" />
+        <activity android:name="com.example.foodsmania.activity.Add" />
+        <activity android:name="com.example.foodsmania.activity.ListPage" />
+        <activity android:name="com.example.foodsmania.activity.HomePage" />
+        <activity android:name="com.example.foodsmania.onboarding.OnBoardingActivity"
+            android:theme="@style/Notoolbar">
+        </activity>
+        <activity android:name="com.example.foodsmania.activity.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

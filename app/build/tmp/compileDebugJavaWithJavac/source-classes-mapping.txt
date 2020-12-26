@@ -1,0 +1,44 @@
+com/example/foodsmania/ExampleItem.java
+ com.example.foodsmania.ExampleItem
+com/example/foodsmania/activity/HomePage.java
+ com.example.foodsmania.activity.HomePage
+com/example/foodsmania/activity/Show.java
+ com.example.foodsmania.activity.Show
+ com.example.foodsmania.activity.Show$1
+com/example/foodsmania/PrefConstant.java
+ com.example.foodsmania.PrefConstant
+com/example/foodsmania/ExampleAdapter.java
+ com.example.foodsmania.ExampleAdapter
+ com.example.foodsmania.ExampleAdapter$1
+ com.example.foodsmania.ExampleAdapter$ExampleViewHolder
+com/example/foodsmania/BuildConfig.java
+ com.example.foodsmania.BuildConfig
+com/example/foodsmania/Datas.java
+ com.example.foodsmania.Datas
+com/example/foodsmania/activity/Add_revieww.java
+ com.example.foodsmania.activity.Add_revieww
+ com.example.foodsmania.activity.Add_revieww$1
+ com.example.foodsmania.activity.Add_revieww$2
+ com.example.foodsmania.activity.Add_revieww$3
+com/example/foodsmania/activity/Add.java
+ com.example.foodsmania.activity.Add
+ com.example.foodsmania.activity.Add$1
+ com.example.foodsmania.activity.Add$2
+ com.example.foodsmania.activity.Add$3
+ com.example.foodsmania.activity.Add$4
+ com.example.foodsmania.activity.Add$5
+ com.example.foodsmania.activity.Add$6
+ com.example.foodsmania.activity.Add$6$1
+ com.example.foodsmania.activity.Add$6$2
+ com.example.foodsmania.activity.Add$7
+com/example/foodsmania/activity/ListPage.java
+ com.example.foodsmania.activity.ListPage
+ com.example.foodsmania.activity.ListPage$1
+com/example/foodsmania/activity/MainActivity.java
+ com.example.foodsmania.activity.MainActivity
+ com.example.foodsmania.activity.MainActivity$1
+ com.example.foodsmania.activity.MainActivity$2
+ com.example.foodsmania.activity.MainActivity$3
+com/example/foodsmania/activity/SplashActivity.java
+ com.example.foodsmania.activity.SplashActivity
+ com.example.foodsmania.activity.SplashActivity$1
